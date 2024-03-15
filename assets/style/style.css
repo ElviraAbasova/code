@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+
+}
+
+.container-1{
+    margin-top: 40px;
+    border: 3px solid red;
+    background-color: black;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-items: stretch;
+
+}
+
+.box{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    border-radius:4px;
+    
+}
+
+.box-1{
+    background-color: rgb(251, 67, 251);
+}
+.box-2{
+    background-color: rgb(120, 7, 120);
+}
+.box-3{
+    background-color: rgb(112, 53, 164);
+}
+.box-4{
+    background-color: rgb(50, 50, 196);
+}
+.box-5{
+    background-color: rgb(0, 162, 255);
+}
+.box-6{
+    background-color: rgb(17, 179, 49);
+}
+.box-7{
+    background-color: rgb(126, 203, 59);
+}
+.box-8{
+    background-color: rgb(236, 236, 26);
+}
+.box-9{
+    background-color: orange;
+}
+.box-10{
+    background-color: red;
+}
+
+.container-2{
+
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+  
+
+
+}
+.container-2 .box{
+    height: 100px;
+
+    
+
+}
+
+.container-2 .box-4 {
+    align-self: baseline;
+    font-size: 100px;
+
+    
+   
+}
+
+.container-3{
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-items: baseline;
+
+}
+.container-3 .box-3{
+    font-size: 20px;
+
+}
+.container-3 .box-5{
+    font-size: 60px;
+
+}
+
+.container-3 .box-7{
+    font-size: 10px;
+
+}
+
+.container-3 .box-8{
+    font-size: 80px;
+
+}
+.container-4{
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+
+}
+.container-5{
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+
+}
+
+.container-6{
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+
+}
+.container-7{
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    height: 400px;
+    display: flex;
+}
+
+.container-7 .box-3{
+    align-self: flex-start;
+}
+
+.container-8{
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    height: 400px;
+    display: flex;
+}
+
+.container-8 .box-3{
+    align-self: center;
+}
+.container-9{
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    height: 400px;
+    display: flex;
+}
+
+.container-9 .box-3{
+    align-self: flex-end;
+}
+
+.container-10{
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.container-10 .box-3{
+    align-self: stretch;
+}
+
+.container-11{
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-items: stretch;
+}
+
+.container-11 .box-4 {
+    align-self: baseline;
+    font-size: 70px;
+
+}
+.container-11 .box-3 {
+    align-self: baseline;
+
+}
+.container-11 .box-5 {
+    align-self: baseline;
+    font-size: 20px;
+
+}
+.container-12{
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-items: stretch;
+}
+
+.container-13{
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    height: 400px;
+    align-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.container-13 .box{
+    width: 33.3%;
+ 
+}
+.container-14{
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.container-14 .box{
+    width: 33.3%;
+ 
+}
+.container-15{
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    height: 400px;
+    align-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.container-15 .box{
+    width: 33.3%;
+ 
+}
+
+.container-16{
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+
+}
+.container-16 .box{
+    width: 33.3%;
+ 
+}
+.container-17{
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+
+}
+.container-17 .box{
+    width: 33.3%;
+ 
+}
+.container-18{
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.container-18 .box{
+    width: 33.3%;
+ 
+}
+
+.container-19{
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.container-19 .box{
+    width: 33.3%;
+ 
+}
+.container-20{
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    display: flex;
+
+}
+
+.container-21{
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+
+}
+.container-22{
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    display: flex;
+    justify-content: end;
+
+}
+
+
+.container-23{
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.container-24{
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.container-25{
+    margin-bottom: 40px;
+    background-color: black;
+    border: 3px solid red;
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
